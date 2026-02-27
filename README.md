@@ -1,16 +1,15 @@
-# Web Scraping Store
+# فروشگاه وب‌اسکرپینگ
 
-This project is a web scraping application built with Selenium and Streamlit.
+این پروژه یک برنامه وب‌اسکرپینگ است که با **Selenium** و **Streamlit** ساخته شده است و هدفش شبیه‌سازی یک فروشگاه آنلاین است.
 
-## Features
-- Extract product title
-- Extract product price
-- Extract product image
-- Display products in a store-like interface
+## قابلیت‌ها
+- استخراج عنوان محصول  
+- استخراج قیمت محصول  
+- استخراج تصویر محصول  
+- نمایش محصولات در یک رابط کاربری شبیه فروشگاه آنلاین  
 
-## Installation
+## نصب
+ابتدا محیط مجازی بسازید و فعال کنید، سپس وابستگی‌ها را نصب کنید:
+
+```bash
 pip install -r requirements.txt
-
-## Run
-python scraper.py
-streamlit run app.py
